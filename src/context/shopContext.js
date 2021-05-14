@@ -54,7 +54,8 @@ class ShopProvider extends React.Component {
   }
 
   removeLineItem = async (lineItemIdsToRemove) => {
-
+    const checkout =  await client.checkout.removeLineItems(this.state.checkout.id, lineItemIdsToRemove)
+    this.setState({ checkout: checkout })
   }
 
   fetchAllProducts = async () => {
