@@ -1,5 +1,6 @@
 import React, { useContext, useEffect }from 'react';
 import { Link } from 'react-router-dom';
+import { Box, Grid, Text, Image } from '@chakra-ui/react';
 
 import { ShopContext } from '../context/shopContext';
 
@@ -11,20 +12,31 @@ import { ShopContext } from '../context/shopContext';
     fetchAllProducts()
   }, [fetchAllProducts])
 
+  console.log(products);
+
   if(!products) return <div>Loadings...</div>
 
   return (
-    <div>
+    <Box>
+      <Grid templateColumns="repeat(3, 1fr)">
       {
         products.map(product => (
           <Link 
             to={`/products/${product.handle}`} 
-            key={product.title}
-            >{product.title}
+            key={product.id}
+            >
+              <Image src={product.images[0].src} />
+              <Text>
+                {product.title}
+              </Text>
+              <Text>
+                ${product.variants[0].price}
+              </Text>
           </Link>
         ))
       }
-    </div>
+      </Grid>
+    </Box>
   )
 }
 
