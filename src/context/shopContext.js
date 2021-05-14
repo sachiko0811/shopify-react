@@ -58,9 +58,9 @@ class ShopProvider extends React.Component {
     this.setState({ product })
   }
 
-  closeCart = () => {}
+  closeCart = () => { this.setState({ isCartOpen: false}) }
 
-  openCart = () => {}
+  openCart = () => { this.setState({ isCartOpen: true }) }
 
   closeMenu = () => {}
 
