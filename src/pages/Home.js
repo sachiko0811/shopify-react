@@ -25,13 +25,15 @@ import { ShopContext } from '../context/shopContext';
             to={`/products/${product.handle}`} 
             key={product.id}
             >
-              <Image src={product.images[0].src} />
-              <Text>
-                {product.title}
-              </Text>
-              <Text>
-                ${product.variants[0].price}
-              </Text>
+              <Box _hover={{ opacity: '80%' }}>
+                <Image src={product.images[0].src} />
+                <Text>
+                  {product.title}
+                </Text>
+                <Text>
+                  ${product.variants[0].price}
+                </Text>
+              </Box>
           </Link>
         ))
       }
