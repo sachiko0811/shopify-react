@@ -4,6 +4,8 @@ import { Box, Grid, Text, Image } from '@chakra-ui/react';
 
 import { ShopContext } from '../context/shopContext';
 
+import Hero from '../components/Hero';
+
  const Home = () => {
 
   const { fetchAllProducts, products } = useContext(ShopContext)
@@ -18,6 +20,7 @@ import { ShopContext } from '../context/shopContext';
 
   return (
     <Box>
+      <Hero />
       <Grid templateColumns="repeat(3, 1fr)">
       {
         products.map(product => (
