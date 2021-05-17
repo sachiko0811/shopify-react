@@ -29,12 +29,12 @@ import ImageWithText from '../components/ImageWithText';
             to={`/products/${product.handle}`} 
             key={product.id}
             >
-              <Box _hover={{ opacity: '80%' }}>
+              <Box _hover={{ opacity: '80%' }} textAlign="center" position="relative">
                 <Image src={product.images[0].src} />
-                <Text>
+                <Text position="absolute" bottom="15%" w="100%" fontWeight="bold">
                   {product.title}
                 </Text>
-                <Text>
+                <Text position="absolute" bottom="5%" w="100%" color="gray.500">
                   ${product.variants[0].price}
                 </Text>
               </Box>
