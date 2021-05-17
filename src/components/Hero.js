@@ -8,6 +8,7 @@ const Hero = () => {
       h="100%" m="auto" objectFit="contain" objectPosition={["top", "center"]}
       />
       <Text
+        className="text-focus-in"
         position="absolute"
         bottom="20%"
         w="100%"
