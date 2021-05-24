@@ -1,4 +1,4 @@
-<h1>Ecommerce Website(Shopify)</h1>
+<h1>E-commerce Website(Shopify)</h1>
 
 Shopify website using React
 
