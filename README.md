@@ -5,6 +5,9 @@ Shopify website using React
 
 ![image](https://user-images.githubusercontent.com/58486384/119939544-e5daca80-bf42-11eb-87af-0679bbead6d9.png)
 
+![image](https://user-images.githubusercontent.com/58486384/119939637-04d95c80-bf43-11eb-817d-a9111157fff0.png)
+
+
 
 
 **Languages:**
