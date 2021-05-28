@@ -3,7 +3,7 @@
 Shopify website using React
 
 
-Screen Shot 2021-05-27 at 11.25.11 PM.png![image](https://user-images.githubusercontent.com/58486384/119939544-e5daca80-bf42-11eb-87af-0679bbead6d9.png)
+![image](https://user-images.githubusercontent.com/58486384/119939544-e5daca80-bf42-11eb-87af-0679bbead6d9.png)
 
 
 
