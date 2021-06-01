@@ -1,6 +1,6 @@
 <h1>E-commerce Website(Shopify)</h1>
 
-Shopify website using React
+Shopify website using React.js
 
 
 ![image](https://user-images.githubusercontent.com/58486384/119939544-e5daca80-bf42-11eb-87af-0679bbead6d9.png)
